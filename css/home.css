@@ -21,7 +21,7 @@ body{
 }
 /*-------Header-------*/
 header{
-    background:url(/imges/bg-food.jpeg);
+    background:url(./imges/bg-food.jpeg);
     display: flex;
     flex-direction: column;
     width: 100%;
