@@ -15,7 +15,8 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-start;
+    width: 100%;
     text-align: center;
     font-family: "Nunito Sans", sans-serif;
     behavior: smooth;
@@ -180,6 +181,8 @@ header{
 /*end header*/
 /*comments**/
 .comment-container{
+    width: 100%;
+
     background-size: cover;
     background-position: center;
     display: flex;
@@ -396,6 +399,7 @@ align-items: center;
 }
 /*join user*/
 #join-users{
+    width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -433,6 +437,8 @@ footer{
     background-color: rgba(0, 0, 0, 0.842);
     color: white;
     padding-top: 10px;
+    width: 100%;
+
 }
 .footer-info-container{
     margin-bottom: 20px;
